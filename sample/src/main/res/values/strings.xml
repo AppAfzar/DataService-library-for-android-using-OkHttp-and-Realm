@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Sample Data Service</string>
+    <string name="show_list_view">Show List</string>
+    <string name="action_add">add</string>
+    <string name="item_list">Post List Activity</string>
+    <string name="item_information">Post Activity</string>
+    <string name="delete_local_data">Delete all local data</string>
+    <string name="create_or_edit_post">Create or Edit Post</string>
+    <string name="action_edit">edit</string>
+    <string name="about_app">This App is a sample to show how DataService library work.\n\n
+    What is considered in this program:\n
+      - Androidx\n
+      - MVP (Model View Presenter)\n
+      - Realm for local database\n
+      - OkHttp for Android 5.0+ (API 21+)\n
+      - Volly lib for Android API -21\n\n
+    to more information visit www.appafzar.com\n\n
+    created by A.hashemi 2020-06-27\n
+    phone: (+98)9127500206\n\n\
+
+    This DataService library support:\n
+    minSdkVersion 15\n
+    targetSdkVersion 29\n</string>
+</resources>

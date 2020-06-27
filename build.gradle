@@ -1,0 +1,34 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        minSdkVersion = 15
+        sdkVersion = 29
+        buildTools = '29.0.3'
+        realmVersion = '6.0.0'
+    }
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        // Android Build tools
+        classpath 'com.android.tools.build:gradle:4.0.0'
+        // Realm base library
+        classpath "io.realm:realm-gradle-plugin:${realmVersion}"
+    }
+}
+
+allprojects {
+    group = 'io.realm'
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
